@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('Gambar/Yayoi.jpg')no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;  
+}
+
+nav {
+    width: 100%;
+    background: #222;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ff3b3b;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+.content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #ff3b3b;
+}
+
+p {
+    font-size: 18px;
+    color: #bbbbbb;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.center {
+    background: #222;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5);
+    width: 350px;
+    text-align: center;
+}
+
+.center h1 {
+    margin-bottom: 20px;
+    color: #ff3b3b;
+}
+
+.txt_field {
+    position: relative;
+    margin: 20px 0;
+}
+
+.txt_field input {
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.txt_field label {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #bbbbbb;
+    transition: 0.3s;
+}
+
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label {
+    top: -5px;
+    font-size: 12px;
+    color: #ff3b3b;
+}
+
+.pass {
+    text-align: right;
+    font-size: 14px;
+    color: #bbbbbb;
+    margin-bottom: 10px;
+}
+
+.pass:hover {
+    color: #ff3b3b;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: #ff3b3b;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #bb0000;
+}
+
+.signup_link {
+    margin-top: 10px;
+}
+
+.signup_link p {
+    display: inline;
+    color: #bbbbbb;
+}
+
+.signup_link a {
+    text-decoration: none;
+    color: #ff3b3b;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.signup_link a:hover {
+    color: #ffffff;
+}
+
+.butonjim .btns{
+    margin-top: 20px;
+  }
+  .butonjim .btns button{
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  .butonjim .btns button:first-child{
+    color: #fff;
+    background: none;
+  
+  }
+
+  .butonjim .btns2 button{
+    height: 55px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+
+  .butonjim .btns2 button:first-child{
+    color: #fff;
+    background: none;
+  
+  }
+
